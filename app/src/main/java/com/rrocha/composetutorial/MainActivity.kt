@@ -24,4 +24,10 @@ class MainActivity : ComponentActivity() {
     fun MessageCard(name:String){
         Text("Hello $name")
     }
+
+    @Preview
+    @Composable
+    fun PreviewMessageCard(){
+        MessageCard(name = "Ricardo da Rocha!")
+    }
 }
